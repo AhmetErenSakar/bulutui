@@ -12,3 +12,53 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.default {
+  color: black;
+  text-align: center;
+  margin: 2em;
+  padding: 0.5em;
+}
+.default:hover {
+  color: blue;
+  border-color: blue;
+  cursor: pointer;
+}
+.primary {
+  color: white;
+  background-color: black;
+  text-align: center;
+  margin: 2em;
+  padding: 0.5em;
+}
+.primary:hover {
+  color: black;
+  background-color: #fff;
+  cursor: pointer;
+}
+.dashed {
+  text-align: center;
+  margin: 2em;
+  padding: 0.5em;
+}
+.dashed:hover {
+  color: red;
+  border-style: dashed;
+  border-color: red;
+  cursor: pointer;
+}
+.text {
+  color: black;
+  text-align: center;
+  margin: 2em;
+  padding: 0.5em;
+  cursor: pointer;
+}
+.link {
+  color: blue;
+  text-align: center;
+  margin: 2em;
+  padding: 0.5em;
+  cursor: pointer;
+  border: none;
+}
